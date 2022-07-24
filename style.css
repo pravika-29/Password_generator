@@ -1,0 +1,92 @@
+body{
+    background-color:lavender;
+}
+h1{
+    text-align: center;
+    color:rgb(66, 65, 65);
+    font-family: Garamond;
+}
+#reset{
+    display: flex;
+    width: 60px;
+    height: 30px;
+}
+.main{
+    border-style:solid;
+    border-width: 4px;
+    border-color: black;
+    background-color:lavenderblush;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 100%;
+}
+.btn{
+    background-color:crimson;
+    color:white;
+    font-family: Magneto;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: lightgrey;
+    color:black;
+}
+.flex{
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.flex1{
+    padding:10px;
+}
+.flex2{
+    padding:10px;
+}
+.sub1{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+pre{
+    font-family: Simson;
+    font-weight: bolder;
+    font-size: 120%;
+}
+#length{
+    border-style: inherit;
+    width: 3rem;
+    border-radius: 5px;
+}
+.sub2{
+    text-align: center;
+}
+.button{
+    background-color:crimson;
+    color:white;
+    font-family: Magneto;
+    padding: 5px;
+}
+.button:hover{
+    background-color:lightgrey;
+    color:black;
+}
+.output_space{
+    border-radius: 25px;
+    height: 2.5rem;
+    width:300px;
+    display:flex;
+    border-width: 5rem;
+    padding: 1rem;
+    background-color:white;
+    justify-content: center;
+    word-break: break-all;
+    border: 1px solid;
+    padding: 1rem;
+    color:black;
+    border-color: black;
+}
